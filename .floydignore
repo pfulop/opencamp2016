@@ -14,3 +14,4 @@ var
 .DS_Store
 out
 MNIST_data
+presentation
