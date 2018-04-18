@@ -9,12 +9,19 @@ import {
   Quote,
   Slide,
   Text,
-  Image
+  Image,
+  Notes,
+  Magic,
+  Appear,
+  Link
 } from "spectacle";
 
 export default () => (
   <Slide bgColor="secondary" textColor="primary">
-    <Cite>zdroj: XKCD (xkcd.com)</Cite>
-    <Image height="500px" src={require("./assets/machine_learning_2x.png")} />
+    <Cite>
+      zdroj:
+      Lucasfilm Limited
+    </Cite>
+    <Image height="500px" src={require("./assets/Mindtrick.png")} />
   </Slide>
 );

@@ -16,6 +16,7 @@ import {
 
 export default () => (
   <Magic>
+    <Slide bgColor="secondary" textColor="primary" />
     <Slide bgColor="secondary" textColor="primary">
       <Heading fit>Prezident Slovenskej Republiky</Heading>
     </Slide>

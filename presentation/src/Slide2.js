@@ -10,8 +10,13 @@ import {
   Slide,
   Text,
   Layout,
-  Fill
+  Fill,
+  Appear
 } from "spectacle";
+
+const AppearListItem = ({ children }) => (
+  <Appear><ListItem>{children}</ListItem></Appear>
+);
 
 export default () => (
   <Slide
@@ -24,11 +29,12 @@ export default () => (
       O čom hovorím
     </Heading>
     <List margin="10% 0">
-      <ListItem>Kto som</ListItem>
-      <ListItem>Čo je ML/DL 🤖</ListItem>
-      <ListItem>Kolko €€€ treba na vyhratie volieb</ListItem>
-      <ListItem>Aké je to pivo 🍺</ListItem>
-      <ListItem>Ako klamať</ListItem>
+      <AppearListItem>Kto som</AppearListItem>
+      <AppearListItem>Čo je ML/DL 🤖</AppearListItem>
+      <AppearListItem>Kolko €€€ treba na vyhratie volieb</AppearListItem>
+      <AppearListItem>Sme šťastný národ</AppearListItem>
+      <AppearListItem>Aké je to číslo</AppearListItem>
+      <AppearListItem>Ako klamať</AppearListItem>
     </List>
   </Slide>
 );

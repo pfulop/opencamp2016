@@ -18,20 +18,22 @@ import {
 
 export default () => (
   <Slide bgColor="secondary" textColor="primary">
-    <Heading fontSize={10} textColor="primary">🙃</Heading>
+    <Heading fontSize={10} textColor="primary">1 2 3 9 0</Heading>
     <List margin="10% 0">
       <Appear>
-        <ListItem>World Happiness Report</ListItem>
+        <ListItem>MNIST</ListItem>
       </Appear>
       <Appear>
         <ListItem>
-          Šťastie na základe ekonomickej situácie, sociálnej pomoci atď.
+          Hello world pre ML
         </ListItem>
       </Appear>
     </List>
     <Appear>
       <Cite>
-        <Link href="https://www.kaggle.com/unsdsn/world-happiness">Kaggle</Link>
+        <Link href="https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.pys">
+          Keras
+        </Link>
       </Cite>
     </Appear>
   </Slide>
